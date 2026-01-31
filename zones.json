@@ -1,0 +1,16 @@
+{
+    "zones":[
+        {
+            "name": "Left Side",
+            "cam_source": 0,
+            "roi_polygons": [
+                [[0, 0], [640, 0], [640, 720], [0, 720]]],
+            "allowed_ids": [],
+            "mode": "allowlist",
+            "alarm_sounds": {
+                "unknown_confirmed": "silent",
+                "unauthorized_confirmed": "silent"
+            }
+        }
+    ]
+}
